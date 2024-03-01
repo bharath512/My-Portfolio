@@ -694,6 +694,45 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Certificates section
+--------------------------------------------------------------*/
+.certificate-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.certificate-image {
+  width: 400px;
+  margin-right: 100px;
+}
+
+.certificate-details {
+  flex: 1;
+  
+}
+
+.certificate-name {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.certificate-info {
+  margin-bottom: 5px;
+  font-size: 20
+  px;
+}
+
+.centered-div {
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# End of Certificates section
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
